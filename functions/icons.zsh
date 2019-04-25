@@ -1,4 +1,13 @@
-# vim:ft=zsh ts=2 sw=2 sts=2 et fenc=utf-8
+plugins=(
+  git
+  zsh-autosuggestions
+  virtualenv
+)
+
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(time dir_writable dir virtualenv vcs status)
+# POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status virtualenv history time)
+POWERLEVEL9K_PROMPT_ON_NEWLINE=true# vim:ft=zsh ts=2 sw=2 sts=2 et fenc=utf-8
 ################################################################
 # icons
 # This file holds the icon definitions and
@@ -15,7 +24,7 @@
 typeset -gAH icons
 
 set_default POWERLEVEL9K_HIDE_BRANCH_ICON false
-set_default POWERLEVEL9K_MODE ""
+set_default POWERLEVEL9K_MODE "nerdfont-complete"
 
 function _p9k_init_icons() {
   case $POWERLEVEL9K_MODE in
@@ -419,6 +428,7 @@ function _p9k_init_icons() {
         TIME_ICON                      $'\uF017 '             # 
         JAVA_ICON                      $'\U2615'              # ☕︎
         LARAVEL_ICON                   $'\ue73f '             # 
+        CANNABIS_ICON                  $'\ufca4'
       )
     ;;
     *)
