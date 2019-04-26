@@ -1,8 +1,7 @@
-# Powerlevel10k
+# Powerlevel420k
 
-Powerlevel10k is a theme for ZSH. It's a backward-compatible reimplementation of
-[Powerlevel9k](https://github.com/bhilburn/powerlevel9k) with lower latency and better
-prompt responsiveness.
+Powerlevel420k is a theme for ZSH. It's a backward-compatible reimplementation of
+[Powerlevel10k](https://github.com/romkatv/powerlevel10k) with cannabis icon.
 
 If you like the looks of Powerlevel9k but feeling frustrated by its slow prompt,
 simply replace it with Powerlevel10k and enjoy responsive shell like it's 80's again!
@@ -59,10 +58,10 @@ make sure to disable your current theme in your plugin manager. See
 ### Oh My Zsh
 
 ```zsh
-git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+git clone https://github.com/art049/powerlevel420k.git $ZSH_CUSTOM/themes/powerlevel420k
 ```
 
-Set `ZSH_THEME=powerlevel10k/powerlevel10k` in your `~/.zshrc`.
+Set `ZSH_THEME=powerlevel420k/powerlevel420k` in your `~/.zshrc`.
 
 ### Prezto
 
