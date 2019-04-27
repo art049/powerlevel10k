@@ -2360,7 +2360,7 @@ _p9k_init() {
     _p9k_get_icon MULTILINE_FIRST_PROMPT_PREFIX
     _P9K_LEFT_PREFIX+="%f%b%k"
     _p9k_get_icon CANNABIS_ICON
-    _P9K_LEFT_SUFFIX+=$'\n%F{green}'$_P9K_RETVAL'%f'
+    _P9K_LEFT_SUFFIX+=$'\n%F{green}'$_P9K_RETVAL'%f '
     if [[ $POWERLEVEL9K_RPROMPT_ON_NEWLINE != true ]]; then
       # The right prompt should be on the same line as the first line of the left
       # prompt. To do so, there is just a quite ugly workaround: Before zsh draws
