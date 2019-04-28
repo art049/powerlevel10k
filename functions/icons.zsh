@@ -7,7 +7,8 @@ plugins=(
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(time dir_writable dir virtualenv vcs status)
 # POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status virtualenv history time)
-POWERLEVEL9K_PROMPT_ON_NEWLINE=true# vim:ft=zsh ts=2 sw=2 sts=2 et fenc=utf-8
+POWERLEVEL9K_PROMPT_ON_NEWLINE=true
+# vim:ft=zsh ts=2 sw=2 sts=2 et fenc=utf-8
 ################################################################
 # icons
 # This file holds the icon definitions and
